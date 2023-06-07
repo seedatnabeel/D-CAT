@@ -1,0 +1,15 @@
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+matplotlib
+aum
+cleanlab
+Pillow
+wandb
+isort
+black
+augly
+opencv-python
+ipykernel
