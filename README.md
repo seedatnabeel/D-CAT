@@ -58,13 +58,13 @@ Below is an example of how to use D-CAT:
 total_runs=3
 epochs=10
 seed=0
-
-# uniform mnist 
 hardness="uniform"
 dataset="mnist"
 model_name="LeNet"
 python run_experiment.py --total_runs $total_runs --hardness $hardness --dataset $dataset --model_name $model_name --seed $seed --prop 0.1 --epochs $epochs
 ```
+
+Analysis: Results from the benchmarking can be visualized using `analysis_plots.ipynb` and/or `stability_plot.ipynb`. The values are pulled from wandb logs (see below).
 
 ## 🔎 Logging
 Outputs from experimental scripts are logged to [Weights and Biases - wandb](https://wandb.ai). An account is required and your WANDB_API_KEY and Entity need to be set in wandb.yaml file provided.
