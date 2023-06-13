@@ -13,3 +13,5 @@ black
 augly
 opencv-python
 ipykernel
+scikit-posthocs
+SciencePlots
