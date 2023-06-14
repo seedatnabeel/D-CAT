@@ -207,7 +207,7 @@ class Evaluator:
         uncertainty, confidence = dataiq_raw
         easy_train, ambig_train, hard_train = get_groups(
             confidence=confidence,
-            aleatoric_uncertainty=uncertainty,
+            uncertainty=uncertainty,
             data_iq_xthresh=0.15,
             data_iq_ythresh=0.2,
         )
@@ -222,7 +222,7 @@ class Evaluator:
         uncertainty, confidence = datamaps_raw
         easy_train, ambig_train, hard_train = get_groups(
             confidence=confidence,
-            aleatoric_uncertainty=uncertainty,
+            uncertainty=uncertainty,
             data_iq_xthresh=0.15,
             data_iq_ythresh=0.2,
         )
